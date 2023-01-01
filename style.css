@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+/* body{ background-image:url("business.png"); */
+
+html {
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  background-size: cover;
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+}
+img {
+  opacity: 0.5;
+  width: 98vw;
+  height: 100vh;
+  z-index: -99;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+ul li {
+  width: 80px;
+  float: right;
+  text-align: center;
+  border: lpx solid white;
+  background-color: black;
+  border-radius: 5rem;
+  opacity: 0.8;
+  font-family: "Dancing Script", cursive;
+  margin-right: 4px;
+  padding: 7px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover {
+  background-color: rgba(157, 114, 33, 0.661);
+}
+
+h3 {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+
+  font-family: "Dancing Script", cursive;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px;
+}
+h2 {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  color: rgb(14, 11, 6);
+  font-family: "Dancing Script", cursive;
+}
+.text {
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  width: 600;
+}
+li {
+  margin-bottom: 1rem;
+}
+.navbar {
+  padding: auto;
+  position: absolute;
+  z-index: 1;
+  float: right;
+  align-items: flex-end;
+
+  margin-left: 55rem;
+}
+.main {
+  display: flex;
+}
+.main-header {
+  font-size: 5rem;
+  color: rgb(196, 143, 43);
+}
+.subhead {
+  font-size: 2rem;
+  margin-top: 60rem;
+}
+.text {
+  font-size: 1.2rem;
+  top: 50%;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  img {
+    opacity: 0.8;
+    width: 98vw;
+    height: 78vh;
+    z-index: -99;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden !important;
+  }
+  ul li {
+    width: 50px;
+    float: right;
+    text-align: center;
+    border: lpx solid white;
+    background-color: black;
+    font-family: "Dancing Script", cursive;
+    margin-right: 1px;
+    padding: 1px;
+  }
+  h3 {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    color: white;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px;
+  }
+  h2 {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    color: rgb(14, 11, 6);
+    font-family: "Dancing Script", cursive;
+    font-size: 5px;
+  }
+
+  .text {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 600;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  .navbar {
+    padding: auto;
+    position: absolute;
+    z-index: 1;
+    float: right;
+    margin-left: 0;
+  }
+}
